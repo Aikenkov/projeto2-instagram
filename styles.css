@@ -12,12 +12,26 @@ body {
 }
 
 .topo {
-    width: 960px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    z-index: 5;
+    width: 100vw;
+
+}
+
+.topo-conteudo {
+    max-width: 960px;
+    width: 95vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 54px;
-    background-color: #FFFFFF;
+
+
 }
 
 .topo-mobile {
@@ -113,7 +127,7 @@ body {
     overflow: hidden;
     background-color: #FFFFFF;
     position: relative;
-    margin-top: 34px;
+    margin-top: 88px;
     z-index: 0;
 }
 
