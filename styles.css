@@ -194,7 +194,7 @@ body {
 
 
 .espaco {
-    width: 321px;
+    width: 30px;
     height: 85px;
     /* background-color: #919191; */
     margin-top: 25px;
@@ -258,13 +258,11 @@ body {
 }
 
 .sidebar {
-    max-width: 293px;
-    min-width: 293px;
-    margin-top: 25px;
-    position: fixed;
-    top: 79px;
-    width: 19%;
-    right: 25%;
+    width: 293px;
+    height: 500px;
+    margin-top: 88px;
+    position: sticky;
+    top: 88px;
 }
 
 .sidebar :nth-child(1) {
@@ -354,33 +352,6 @@ h6 {
 
 
 
-@media (max-width: 1741px) {
-    .sidebar {
-        right: 18%;
-    }
-}
-
-
-
-@media (max-width: 1400px) {
-    .sidebar {
-        right: 14%;
-    }
-}
-
-@media (max-width: 1300px) {
-    .sidebar {
-        right: 8%;
-    }
-}
-
-
-
-@media (max-width: 1111px) {
-    .sidebar {
-        right: 1%;
-    }
-}
 
 @media (max-width: 935px) {
 
